@@ -1,113 +1,76 @@
-import Image from "next/image";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patiala Taxi Service</title>
 
-export default function Home() {
-  return (
-    <main>
+<link rel="stylesheet" href="style.css">
 
-      {/* Header */}
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-      <header className="bg-black text-white border-b border-yellow-500">
+</head>
 
-        <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+<body>
 
-          <div className="flex items-center gap-3">
+<header>
 
-            <Image
-              src="/logo.png"
-              alt="Patiala Taxi Service"
-              width={70}
-              height={70}
-            />
+<div class="logo">
 
-            <div>
+<img src="images/logo.png" alt="Patiala Taxi Service">
 
-              <h1 className="text-3xl font-bold text-yellow-400">
-                PATIALA
-              </h1>
+<div>
 
-              <p className="text-lg tracking-widest">
-                TAXI SERVICE
-              </p>
+<h2>PATIALA</h2>
 
-            </div>
+<span>TAXI SERVICE</span>
 
-          </div>
+</div>
 
-          <nav className="hidden md:flex gap-8 text-lg">
+</div>
 
-            <a href="#">Home</a>
+<nav>
 
-            <a href="#">Book Now</a>
+<a href="#">Home</a>
 
-            <a href="#">Fleet</a>
+<a href="#">Book Now</a>
 
-            <a href="#">Tours</a>
+<a href="#">Fleet</a>
 
-            <a href="#">Contact</a>
+<a href="#">Tours</a>
 
-          </nav>
+<a href="#">Contact</a>
 
-        </div>
+</nav>
 
-      </header>
+</header>
 
-      {/* Hero */}
+<section class="hero">
 
-      <section
-        className="relative h-screen bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/hero.jpg')"
-        }}
-      >
+<div class="overlay"></div>
 
-        <div className="absolute inset-0 bg-black/70" />
+<div class="hero-content">
 
-        <div className="relative z-10 h-full flex items-center justify-center text-center px-5">
+<h1>Patiala Taxi Service</h1>
 
-          <div>
+<h3>Your Trusted Travel Partner</h3>
 
-            <h2 className="text-6xl font-bold text-white">
+<p>
 
-              PATIALA TAXI SERVICE
+One Way Taxi • Round Trip • Airport Transfer • Tour Packages
 
-            </h2>
+</p>
 
-            <p className="mt-5 text-2xl text-yellow-400">
+<a href="tel:9115479396" class="btn">
 
-              Your Trusted Travel Partner
+Call Now
 
-            </p>
+</a>
 
-            <p className="mt-6 text-xl text-gray-200">
+</div>
 
-              One Way Taxi • Round Trip • Airport Transfer • Tour Packages
+</section>
 
-            </p>
+</body>
 
-            <div className="mt-10 flex gap-5 justify-center">
-
-              <a
-                href="tel:9115479396"
-                className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold"
-              >
-                📞 Call Now
-              </a>
-
-              <a
-                href="https://wa.me/919115479396"
-                className="bg-green-500 text-white px-8 py-4 rounded-full font-bold"
-              >
-                WhatsApp
-              </a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-    </main>
-  );
-}
+</html>
