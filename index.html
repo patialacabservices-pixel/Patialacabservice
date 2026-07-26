@@ -1,375 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+export const metadata = {
+  title: "Patiala Taxi Service | 24x7 Cab Booking | Call 9115479396",
+  description:
+    "Book Patiala Taxi Service for local, outstation, airport transfer and one-way taxi. Call 9115479396 for instant booking.",
+  keywords: [
+    "Patiala Taxi Service",
+    "Taxi Service in Patiala",
+    "Patiala Cab",
+    "Cab Service Patiala",
+    "Patiala to Chandigarh Taxi",
+    "Patiala to Delhi Taxi"
+  ],
+};
 
-<title>Patiala Cab Service | 24x7 Taxi Booking Punjab</title>
+export default function Home() {
+  return (
+    <main>
 
-<meta name="description" content="Patiala Cab Service - Book Taxi in Patiala, Chandigarh, Mohali, Delhi, Punjab & All India. Call 9115479396">
+      {/* HERO SECTION */}
 
-<style>
+      <section className="hero">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+        <div className="overlay">
+
+          <h1>Patiala Taxi Service</h1>
+
+          <p>
+            24×7 Local • Outstation • Airport Transfer • One Way • Round Trip
+          </p>
+
+          <a href="tel:9115479396" className="callBtn">
+            📞 Call Now - 9115479396
+          </a>
+
+          <a
+            href="https://wa.me/919115479396"
+            className="whatsappBtn"
+          >
+            WhatsApp Booking
+          </a>
+
+        </div>
+
+      </section>
+
+      {/* SERVICES */}
+
+      <section className="services">
+
+        <h2>Our Services</h2>
+
+        <div className="grid">
+
+          <div>
+            <h3>Local Taxi</h3>
+            <p>Affordable taxi service inside Patiala.</p>
+          </div>
+
+          <div>
+            <h3>Airport Transfer</h3>
+            <p>Chandigarh Airport pickup & drop.</p>
+          </div>
+
+          <div>
+            <h3>Outstation Taxi</h3>
+            <p>Delhi, Amritsar, Shimla, Manali and all India.</p>
+          </div>
+
+          <div>
+            <h3>One Way Taxi</h3>
+            <p>Lowest fare one-way cab booking.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* POPULAR ROUTES */}
+
+      <section>
+
+        <h2>Popular Routes</h2>
+
+        <ul>
+
+          <li>Patiala to Chandigarh Taxi</li>
+
+          <li>Patiala to Delhi Taxi</li>
+
+          <li>Patiala to Amritsar Taxi</li>
+
+          <li>Patiala to Mohali Taxi</li>
+
+          <li>Patiala to Ludhiana Taxi</li>
+
+          <li>Patiala to Shimla Taxi</li>
+
+          <li>Patiala to Manali Taxi</li>
+
+        </ul>
+
+      </section>
+
+      {/* CONTACT */}
+
+      <section>
+
+        <h2>Book Your Taxi</h2>
+
+        <p>📞 9115479396</p>
+
+        <p>Available 24 Hours</p>
+
+      </section>
+
+    </main>
+  );
 }
-
-body{
-background:#000;
-color:#fff;
-}
-
-header{
-background:#000;
-padding:20px;
-text-align:center;
-border-bottom:3px solid #FFD700;
-}
-
-.logo{
-font-size:40px;
-color:#FFD700;
-font-weight:bold;
-}
-
-.hero{
-padding:100px 20px;
-text-align:center;
-background:#111;
-}
-
-.hero h1{
-font-size:50px;
-color:#FFD700;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:22px;
-margin-bottom:30px;
-}
-
-.btn{
-display:inline-block;
-padding:15px 35px;
-background:#D71920;
-color:#fff;
-text-decoration:none;
-border-radius:8px;
-font-size:20px;
-margin:10px;
-font-weight:bold;
-}
-
-.call{
-background:#FFD700;
-color:#000;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<header>
-
-<div class="logo">
-PATIALA CAB SERVICE
-</div>
-
-</header>
-
-
-  
-<section class="hero">
-
-<h1>24×7 Taxi Booking Service</h1>
-
-<p>
-Patiala • Chandigarh • Mohali • Punjab • Delhi Airport • Outstation Taxi
-</p>
-
-<a href="tel:9115479396" class="btn call">
-📞 Call Now
-</a>
-
-<a href="https://wa.me/919115479396" class="btn">
-WhatsApp Booking
-</a>
-
-</section><section style="padding:60px 20px;background:#111;text-align:center;">
-
-<h2 style="color:#FFD700;font-size:38px;margin-bottom:40px;">
-Our Taxi Services
-</h2>
-
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;">
-
-<div style="background:#1a1a1a;border:2px solid #FFD700;padding:20px;border-radius:10px;width:260px;">
-<h3 style="color:#FFD700;">Airport Taxi</h3>
-<p>24×7 Chandigarh & Delhi Airport Pickup & Drop.</p>
-</div>
-
-<div style="background:#1a1a1a;border:2px solid #D71920;padding:20px;border-radius:10px;width:260px;">
-<h3 style="color:#FFD700;">Outstation Taxi</h3>
-<p>Punjab, Himachal, Delhi, Jammu & All India.</p>
-</div>
-
-<div style="background:#1a1a1a;border:2px solid #FFD700;padding:20px;border-radius:10px;width:260px;">
-<h3 style="color:#FFD700;">Tempo Traveller</h3>
-<p>9, 12, 17 & 26 Seater Luxury Tempo Traveller.</p>
-</div>
-
-</div>
-
-</section>
-
-</body>
-
-</html>
-<section style="padding:60px 20px;background:#000;text-align:center;">
-
-<h2 style="color:#FFD700;font-size:38px;margin-bottom:40px;">
-Our Fleet
-</h2>
-
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;">
-
-<div style="background:#111;border:2px solid #FFD700;padding:20px;border-radius:12px;width:220px;">
-<h3 style="color:#FFD700;">Sedan</h3>
-<p>Comfortable local & outstation rides.</p>
-</div>
-
-<div style="background:#111;border:2px solid #D71920;padding:20px;border-radius:12px;width:220px;">
-<h3 style="color:#FFD700;">Ertiga</h3>
-<p>Best for family trips.</p>
-</div>
-
-<div style="background:#111;border:2px solid #FFD700;padding:20px;border-radius:12px;width:220px;">
-<h3 style="color:#FFD700;">Innova Crysta</h3>
-<p>Luxury airport & long-distance travel.</p>
-</div>
-
-<div style="background:#111;border:2px solid #D71920;padding:20px;border-radius:12px;width:220px;">
-<h3 style="color:#FFD700;">Tempo Traveller</h3>
-<p>9, 12, 17 & 26 Seater Group Tours.</p>
-</div>
-
-</div>
-
-</section>
-<section style="padding:70px 20px;background:#111;text-align:center;">
-
-<h2 style="color:#FFD700;font-size:40px;margin-bottom:30px;">
-Book Your Taxi
-</h2>
-
-<form style="max-width:700px;margin:auto;">
-
-<input type="text" placeholder="Full Name" style="width:100%;padding:15px;margin:10px 0;border-radius:8px;border:none;">
-
-<input type="tel" placeholder="Mobile Number" style="width:100%;padding:15px;margin:10px 0;border-radius:8px;border:none;">
-
-<input type="text" placeholder="Pickup Location" style="width:100%;padding:15px;margin:10px 0;border-radius:8px;border:none;">
-
-<input type="text" placeholder="Drop Location" style="width:100%;padding:15px;margin:10px 0;border-radius:8px;border:none;">
-
-<input type="date" style="width:100%;padding:15px;margin:10px 0;border-radius:8px;border:none;">
-
-<textarea placeholder="Message" style="width:100%;padding:15px;height:120px;margin:10px 0;border-radius:8px;border:none;"></textarea>
-
-<button style="background:#D71920;color:white;padding:18px 40px;border:none;border-radius:8px;font-size:20px;font-weight:bold;cursor:pointer;">
-Book Now
-</button>
-
-</form>
-
-</section>
-<!-- Floating WhatsApp Button -->
-<a href="https://wa.me/919115479396"
-style="
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px 20px;
-border-radius:50px;
-text-decoration:none;
-font-size:18px;
-font-weight:bold;
-z-index:9999;
-box-shadow:0 0 10px rgba(0,0,0,.4);
-">
-💬 WhatsApp
-</a>
-
-<!-- Floating Call Button -->
-<a href="tel:9115479396"
-style="
-position:fixed;
-bottom:85px;
-right:20px;
-background:#D71920;
-color:white;
-padding:15px 20px;
-border-radius:50px;
-text-decoration:none;
-font-size:18px;
-font-weight:bold;
-z-index:9999;
-box-shadow:0 0 10px rgba(0,0,0,.4);
-">
-📞 Call Now
-</a>
-<header style="background:#000;border-bottom:3px solid #FFD700;padding:15px 30px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:999;">
-
-<h2 style="color:#FFD700;">PATIALA CAB SERVICE</h2>
-
-<div>
-<a href="#home" style="color:#fff;text-decoration:none;margin:10px;">Home</a>
-<a href="#services" style="color:#fff;text-decoration:none;margin:10px;">Services</a>
-<a href="#fleet" style="color:#fff;text-decoration:none;margin:10px;">Fleet</a>
-<a href="#booking" style="color:#fff;text-decoration:none;margin:10px;">Booking</a>
-<a href="#contact" style="color:#fff;text-decoration:none;margin:10px;">Contact</a>
-</div>
-
-</header>
-
-<section id="home" style="background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url('https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=1600&auto=format&fit=crop') center/cover;height:90vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
-
-<h1 style="font-size:60px;color:#FFD700;">
-PATIALA CAB SERVICE
-</h1>
-
-<p style="font-size:24px;color:#fff;margin:20px;">
-24×7 Taxi Booking | Airport Taxi | Outstation Taxi | Punjab | All India
-</p>
-
-<a href="tel:9115479396" style="background:#D71920;color:#fff;padding:18px 40px;border-radius:8px;text-decoration:none;font-size:22px;font-weight:bold;">
-📞 Call 9115479396
-</a>
-<section id="reviews" style="padding:70px 20px;background:#111;text-align:center;">
-
-<h2 style="color:#FFD700;font-size:40px;">Customer Reviews</h2>
-
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:40px;">
-
-<div style="background:#1a1a1a;padding:20px;border-radius:10px;width:300px;border:2px solid #FFD700;">
-⭐⭐⭐⭐⭐
-<p>"Excellent taxi service. Clean car and professional driver."</p>
-<h4 style="color:#FFD700;">Rahul Sharma</h4>
-</div>
-
-<div style="background:#1a1a1a;padding:20px;border-radius:10px;width:300px;border:2px solid #D71920;">
-⭐⭐⭐⭐⭐
-<p>"Best airport taxi in Punjab. Highly recommended."</p>
-<h4 style="color:#FFD700;">Aman Singh</h4>
-</div>
-
-<div style="background:#1a1a1a;padding:20px;border-radius:10px;width:300px;border:2px solid #FFD700;">
-⭐⭐⭐⭐⭐
-<p>"Affordable fare and on-time pickup."</p>
-<h4 style="color:#FFD700;">Gurpreet Kaur</h4>
-</div>
-
-</div>
-
-</section>
-
-<section id="contact" style="padding:70px 20px;background:#000;text-align:center;">
-
-<h2 style="color:#FFD700;">Contact Us</h2>
-
-<p>📞 <strong>9115479396</strong></p>
-
-<p>📍 Patiala, Punjab</p>
-
-<p>✉️ patialacabservice@gmail.com</p>
-
-<a href="tel:9115479396" style="display:inline-block;margin:10px;background:#D71920;color:#fff;padding:15px 30px;border-radius:8px;text-decoration:none;">
-Call Now
-</a>
-
-<a href="https://wa.me/919115479396" style="display:inline-block;margin:10px;background:#25D366;color:#fff;padding:15px 30px;border-radius:8px;text-decoration:none;">
-WhatsApp
-</a>
-
-</section>
-
-<footer style="background:#111;padding:25px;text-align:center;border-top:3px solid #FFD700;">
-<p>© 2026 Patiala Cab Service | All Rights Reserved</p>
-</footer>
-  <section id="faq" style="padding:70px 20px;background:#111;color:white;">
-
-<h2 style="text-align:center;color:#FFD700;font-size:40px;margin-bottom:40px;">
-Frequently Asked Questions
-</h2>
-
-<div style="max-width:900px;margin:auto;">
-
-<h3 style="color:#FFD700;">Do you provide 24×7 taxi service?</h3>
-<p>Yes, Patiala Cab Service is available 24 hours a day, 7 days a week.</p>
-
-<br>
-
-<h3 style="color:#FFD700;">Do you provide Delhi Airport taxi?</h3>
-<p>Yes, we provide Chandigarh, Patiala, Mohali and Delhi Airport pickup & drop service.</p>
-
-<br>
-
-<h3 style="color:#FFD700;">Which vehicles are available?</h3>
-<p>Sedan, Ertiga, Innova, Crysta and Tempo Traveller are available.</p>
-
-<br>
-
-<h3 style="color:#FFD700;">How can I book a taxi?</h3>
-<p>You can call <strong>9115479396</strong> or book through WhatsApp.</p>
-
-</div>
-
-</section>
-  <section id="fare" style="padding:70px 20px;background:#000;text-align:center;">
-
-<h2 style="color:#FFD700;font-size:40px;">Popular Routes</h2>
-
-<table style="margin:auto;margin-top:30px;border-collapse:collapse;width:90%;max-width:900px;color:white;">
-
-<tr style="background:#D71920;">
-<th style="padding:15px;">Route</th>
-<th>Starting Fare</th>
-</tr>
-
-<tr>
-<td style="padding:15px;">Patiala → Chandigarh</td>
-<td>Call Now</td>
-</tr>
-
-<tr>
-<td style="padding:15px;">Patiala → Delhi Airport</td>
-<td>Call Now</td>
-</tr>
-
-<tr>
-<td style="padding:15px;">Patiala → Amritsar</td>
-<td>Call Now</td>
-</tr>
-
-<tr>
-<td style="padding:15px;">Patiala → Jammu</td>
-<td>Call Now</td>
-</tr>
-
-<tr>
-<td style="padding:15px;">Patiala → Manali</td>
-<td>Call Now</td>
-</tr>
-
-</table>
-
-</section>
-</section>
